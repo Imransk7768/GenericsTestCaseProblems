@@ -8,7 +8,7 @@ namespace FindMaxProblems
 {
     public class FindMaximum
     {
-        public int FindMaxInteger(int first, int second, int third)
+        public float FindMaxFloat(float first, float second, float third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
