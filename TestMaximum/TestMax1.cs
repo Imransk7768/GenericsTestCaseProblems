@@ -11,7 +11,7 @@ namespace TestMaximum
     public class TestMax1
     {
         [Test]
-        public void GivenMaxNumInPositionOne_WhenTestMax_ShouldRAETURNMaxNum()
+        public void GivenMaxNumInPositionOne_WhenTestMax_ShouldReturnMaxNum()
         {
             FindMaximum max = new FindMaximum();
             int actual = max.FindMaxInteger(78, 55, 12);
