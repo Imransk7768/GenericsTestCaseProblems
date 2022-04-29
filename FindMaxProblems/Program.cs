@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to Generics With TestCase Problems");
+﻿using System;
+
+namespace FindMaxProblems
+{
+    public static class Program
+    {
+        public static void Main(string[] args)
+        {
+            //Console.WriteLine("Welcome to Generics With TestCase Problems");
+        }
+    }
+}
