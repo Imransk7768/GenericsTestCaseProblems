@@ -11,11 +11,11 @@ namespace TestMaximum
     public class TestMax1
     {
         [Test]
-        public void GivenFloatMaxNumInPositionOne_WhenTestMax_ShouldReturnMaxNum()
+        public void GivenStringMaxNumInPositionOne_WhenTestMax_ShouldReturnMaxNum()
         {
             FindMaximum max = new FindMaximum();
-            float actual = max.FindMaxFloat(57.4f, 28.3f, 36.9f);
-            Assert.AreEqual(actual, 57.4f);
+            string actual = max.FindMaXString("Reliance", "Google", "Jio");
+            Assert.AreEqual(actual, "Reliance");
         }
     }
 }
